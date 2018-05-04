@@ -44,5 +44,5 @@ int main(int argc, char**argv) {
 
     std::cout << "\n" << "Done for today..." << "\n";
 
-    return 0;
+    return 0; // No errors, bail out
 }
