@@ -32,7 +32,7 @@
 
 int main(int argc, char**argv) {
     // Prints welcome message...
-    std::cout << "Welcome ..." << std::endl;
+    std::cout << "Welcome Netbeans ..." << std::endl;
 
     // Prints arguments...
     if (argc > 1) {
@@ -41,6 +41,8 @@ int main(int argc, char**argv) {
             std::cout << i << ": " << argv[i] << std::endl;
         }
     }
-    
+
+    std::cout << "\n" << "Done for today..." << "\n";
+
     return 0;
 }
